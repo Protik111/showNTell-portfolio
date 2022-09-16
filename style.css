@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #211A2F !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.about-details {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.name,
+.pink-color {
+    color: #CD5FF8;
+}
+
+.about-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo {
+    /* width: 100%; */
+    height: 300px;
+    object-fit: cover;
+}
+
+.hr {
+    color: #CD5FF8;
+}
+
+.skillset-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CD5FF8;
+    border-radius: 7px;
+    padding: 25px 20px;
+    margin: 10px;
+}
+
+.card {
+    background-color: #211A2F !important;
+    border: 1px solid #CD5FF8;
+    margin: 10px 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.connect-details {
+    display: flex;
+    justify-content: center;
+}
+
+.connect-item {
+    padding: 10px;
+}
