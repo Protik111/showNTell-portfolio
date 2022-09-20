@@ -7,11 +7,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    font-family: 'Open Sans', sans-serif;
-}
+
+html,
 body {
+    font-family: 'Open Sans', sans-serif;
     background-color: #211A2F !important;
+    overflow-x:hidden;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
